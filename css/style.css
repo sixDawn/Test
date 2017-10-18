@@ -1,0 +1,90 @@
+.center{margin:0 auto;width:1024px;max-width:1024px;}
+.icon{display:block;width:16px;height:16px;background:url(../images/icon.png) no-repeat -2px 0px;position:absolute;top:0;right:0;
+    -webkit-transition:-webkit-transform .2s ease-in;transition:transform .2s ease-in;}
+.ico-arw-bodder{display:inline-block;background:#fff;height:1px;position:absolute;z-index:17;right:0;}
+/**/
+.top {line-height:34px;font-size: 12px;}
+.top a{margin-left:1.5em;display:inline-block;}
+.top_right{margin-right:1.5em;position:relative;+z-index:3;}
+.language_box{display:inline-block;position:relative;z-index:999;padding:0px 16px 0px 10px;border:1px solid #f2f2f2;border-width:0 1px;}
+.language_box a{padding-right:16px;text-align:center;}
+.language_box .icon_open{top:9px;right:16px;}
+.language_box:hover{background:#fff;border-color:#dadada;}
+.language_box:hover .icon_open{background-position:-15px 0px;transform:rotate(90deg);-webkit-transform:rotate(90deg);right:14px;}
+.language_type_box{display:none;position:absolute;z-index:99999;right:-1px;top:34px;min-width:110px;text-align:center;}
+.language_type{background:#fff;border:1px solid #dadada;padding-bottom:10px;}
+.language_type li>a{white-space:nowrap;display:inline-block;margin:0;padding:0;width:100%;+min-width:110px;}
+.language_type a:hover,.language_type li:hover{background:#f9f9f9;}
+.language_type li{padding:0 10px;}
+.language_box:hover .language_type_box{display:inline-block;}
+/*header*/
+.casestyle{border:1px solid #dadada;border-radius:5px;box-shadow:0 2px 6px #eeeeee;background: #fff;width:100%;}
+.header{clear:both;}
+.headerbox{overflow:hidden;clear:both;position:relative;z-index:1;margin:0 1.5em;border-bottom:1px solid #dadada;/*#303c40 #a3882b*/}
+.logo{float:left;width:175px;height:49px;display:inline;margin-top:23px;padding-bottom:26px}
+.logo a{background: url(../images/logo.png) no-repeat;display: block;width: 175px;height:61px;}
+.navbar-nav{float:right;position:absolute;bottom:0px;right:0px;z-index:2;}
+.navbar-nav .nav>li{display:block;float:left;margin-right:14px;padding:0 5px;}
+.navbar-nav .nav>li>a{display:inline-block;line-height:44px;font-size:16px;height:44px;width:100%;}
+.navbar-nav .nav>li>a:hover{color:#a7463d;border-bottom:6px solid #a7463d;/*#a7463d #ff6633*/-webkit-transition: all 100ms ease-out;transition: all 100ms ease-out;}
+.navbar-nav .nav .active a{border-bottom:6px solid #a7463d;/*#a7463d #ff6633*/color:#a7463d;}
+.header_info{height:58px;position:relative;z-index:2;line-height:58px;font-size:16px;color:#000;}
+.hinfo_left span{color:#888;margin-left:1.5em;font-family:"微软雅黑";}
+.hinfo_right{margin-right:1.1em;}
+.search_bar{width:228px;height:27px;border:1px solid #dadada;border-radius:3px;float:right;margin-top:14px; }
+.search_all{width:193px;height:27px;line-height:27px;vertical-align:middle;background:none;padding:0 0 0 6px;float: left;border-right:1px solid #fff;color:#666;}
+.search_all:focus{border-right:1px solid #dadada;background-color:#f9f9f9;}
+.search_btn{background:url(../images/bnt_search.png) no-repeat center 5px;width:28px;height:27px;border:0;cursor:pointer;padding:0;margin:0;float:left}
+.search_btn:hover{background-color:#f3f3f3;}
+/*content*/
+.spreadbox{background-color:#fff;margin-top:15px;position:relative;}
+.spread{padding-top:10px;padding-bottom:10px;+padding-bottom:20px;}
+.title{margin:0 10px;height:45px;padding-left:2px;border-bottom:1px solid #dadada;font:20px/50px "微软雅黑";}
+.title2{margin-bottom:0px;border:none;}
+.more{position:absolute;top:0;right:3.6em;font:12px/50px arial;display:block;}
+.more .icon_open{top:17px;right:-15px;}
+.more:hover .icon_open{background-position:-15px 0px;}
+.mall-list{padding-bottom:10px;}
+	/*List of shopping mall 商城列表*/
+.example{margin:10px;border:1px solid #dadada;border-radius:5px;padding-right:12px;position:relative;overflow:hidden;margin-top:15px;}
+.example:nth-child(1){margin-top:0px;}
+.example .shop_img{float:left;margin-right:12px;width:420px;height:236px;/*background:url(../images/shop1.png);*/}
+.example img{width:420px;height:236px;}
+.example_info{overflow: hidden;max-width:558px;/*float:left;*/}
+.example_info_title{margin-top:15px;position:relative;padding-bottom:10px;border-bottom:1px solid #dadada;}
+.example_info h3{font-size:14px;color:#000;font-weight:400;padding-left:10px;}
+.example_info .shop_introduction:hover{cursor:pointer;}
+.comeon{position:absolute;top:0;right:1.6em;font:12px/26px arial;display:block;}
+.comeon .icon_open{top:5px;right:-12px;/*background-position:-15px -135px;*/}
+.comeon:hover .icon_open{/*background-position:-15px -163px;*/}
+.shop_introduction{padding-top:10px;text-indent:1em;padding:10px 1em;/*padding-right:1em;*/}
+.example_info p{}
+/*footer*/
+.footer{margin-top:0px;padding:15px 0 30px 0;overflow:hidden;padding-bottom:0px;}
+.copy{padding:14px 20px 43px;/*border-top:2px solid #999999;*/background:#fff;overflow:hidden;border:1px solid #dadada;}
+.copyright{}
+.follow{float:right;width:260px;font-size:12px;margin-right:1.5em;}
+.follow p{float:left;border-right:1px solid #dadada;padding-right:15px;text-align:center;width:90px;line-height:10px;}
+.follow p img{width:80px;margin:10px 0px;}
+.customer{float:right;padding-top:20px;}
+.follow b{font-size:19px;color:#aeaeaf;font-family:"Microsoft YaHei",sans-serif;font-weight:normal;}
+.follow a{color:#666;}
+.customer .phone_bnt{width:130px;padding:3px 0px;border:1px solid #dadada;color:#666;text-align:center;font-style:normal;display:inline-block;}
+.customer .phone_bnt:hover{background:#d5982e;color:#fff;border-color:#d5982e;}
+
+/*global service 网点分布*/
+.dotlist{margin-top:20px;}
+.currentlist{font-family:"宋体";padding: 2px 20px 0;position:relative;}
+.currentlist span{color:#ccc;}
+.currentlist .more{line-height:30px;}
+.currentlist .more i{top:7px;}
+.dot_title{font-size:20px "微软雅黑";color:#d5982e;border-bottom:1px solid #d5982e;line-height:39px;margin:17px 10px 13px 10px;padding:0px 12px;}
+.dotinfo:first-child .dot_title{margin-top:10px;}
+.maininfo{min-height:500px;}
+.dotlist{overflow:hidden;position:relative;border-bottom:1px solid #f3f3f3;}
+.dotlist:last-child{border:none;}
+.dotlist li{margin-left:30px;float:left;width:22%;line-height:35px;position:relative;}
+.dotlist li .icon_dot{background:url(../images/icon.png) no-repeat -15px -100px;left:-20px;top:12px}
+.dotlist li a{display:inline-block;width:100%;}
+.dotlist li a:hover .icon_dot{background-position:-15px -63px;}
+.dotlist .label{color:#333;font-size:16px;}
